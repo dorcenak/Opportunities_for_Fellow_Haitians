@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Environmental Conservation Volunteer",
+    "company": "Green Earth Alliance",
+    "location": "San Francisco, CA",
+    "description": "Passionate individuals needed to support environmental initiatives. Join us, make a positive impact, and contribute to a sustainable future.",
+    "apply_url": "https://greenearth.org/volunteer"
+  },
+  {
+    "title": "Community Outreach Volunteer",
+    "company": "Unity Foundation",
+    "location": "Chicago, IL",
+    "description": "Dedicated volunteers wanted to connect with the community. Join our outreach efforts, create positive change, and build stronger neighborhoods.",
+    "apply_url": "https://unityfoundation.org/get-involved"
+  },
+  {
+    "title": "Animal Shelter Helper",
+    "company": "Paws and Whiskers Society",
+    "location": "Austin, TX",
+    "description": "Animal lovers, join us in caring for furry friends. Volunteer at our shelter, provide love and care, and make a difference in their lives.",
+    "apply_url": "https://pawswhiskers.org/volunteer"
+  },
+  {
+    "title": "Youth Mentor",
+    "company": "Bright Futures Foundation",
+    "location": "Seattle, WA",
+    "description": "Inspire and guide the next generation. Become a youth mentor, share your knowledge, and empower young minds for a brighter future.",
+    "apply_url": "https://brightfuturesfoundation.org/get-involved"
+  },
+  {
+    "title": "Meal Delivery Volunteer",
+    "company": "Harvest Hope Kitchen",
+    "location": "Denver, CO",
+    "description": "Join our team to deliver meals to those in need. Make a difference in someone's day and bring joy through nourishment.",
+    "apply_url": "https://harvesthopekitchen.org/volunteer"
+  },
+  {
+    "title": "Medical Mission Volunteer",
+    "company": "Healing Hands Global",
+    "location": "Philadelphia, PA",
+    "description": "Medical professionals and volunteers wanted for global health missions. Join us, provide care, and make a positive impact on communities in need.",
+    "apply_url": "https://healinghandsglobal.org/volunteer"
+  },
+  {
+    "title": "Literacy Program Volunteer",
+    "company": "BookWonders Foundation",
+    "location": "Atlanta, GA",
+    "description": "Join our literacy program, empower minds through books. Volunteer to inspire a love for reading and enhance educational opportunities.",
+    "apply_url": "https://bookwonders.org/get-involved"
+  },
+  {
+    "title": "Art Therapy Volunteer",
+    "company": "Canvas of Hope",
+    "location": "Los Angeles, CA",
+    "description": "Art enthusiasts wanted to bring healing through creativity. Volunteer in art therapy sessions and make a positive impact on mental well-being.",
+    "apply_url": "https://canvasofhope.org/volunteer"
+  },
+  {
+    "title": "Senior Companionship Volunteer",
+    "company": "Golden Years Connection",
+    "location": "Miami, FL",
+    "description": "Spread joy and companionship to seniors in our community. Volunteer to make a difference in the lives of our beloved elders.",
+    "apply_url": "https://goldenyearsconnection.org/volunteer"
+  },
+  {
+    "title": "Disaster Relief Volunteer",
+    "company": "Hope Response Team",
+    "location": "Houston, TX",
+    "description": "Emergency response volunteers needed. Join our disaster relief team, provide aid, and support communities in times of crisis.",
+    "apply_url": "https://hoperesponseteam.org/volunteer"
+  },
+  {
+    "title": "Community Garden Volunteer",
+    "company": "Urban Bloom Gardens",
+    "location": "Portland, OR",
+    "description": "Green thumbs, unite! Join our community garden project, nurture plants, and cultivate a greener, healthier neighborhood.",
+    "apply_url": "https://urbanbloomgardens.org/get-involved"
+  },
+  {
+    "title": "Tech Mentor for Seniors",
+    "company": "Digital Wisdom Foundation",
+    "location": "San Diego, CA",
+    "description": "Tech-savvy individuals, help seniors navigate the digital world. Volunteer as a tech mentor and empower older adults through technology.",
+    "apply_url": "https://digitalwisdomfoundation.org/volunteer"
+  }
+]

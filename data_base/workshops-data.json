@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Photography Workshop",
+    "organizer": "Capture Excellence",
+    "location": "Port-au-Prince",
+    "description": "Join our Photography Workshop to refine your skills, capture moments, and express your creativity. No cost, just passion!",
+    "registration_url": "https://captureexcellence.com/register"
+  },
+  {
+    "title": "Web Development Bootcamp",
+    "organizer": "CodeCrafters",
+    "location": "Cap-Haïtien",
+    "description": "Embark on a coding journey! Attend our Web Development Bootcamp to learn modern technologies. Free admission. Start coding today!",
+    "registration_url": "https://codecrafters.io/enroll"
+  },
+  {
+    "title": "Artisan Cooking Class",
+    "organizer": "CulinaryCrafts",
+    "location": "Jacmel",
+    "description": "Explore the world of flavors! Join our Artisan Cooking Class to master culinary arts. Free admission. Let's cook up a storm!",
+    "registration_url": "https://culinarycrafts.com/join"
+  },
+  {
+    "title": "Yoga and Mindfulness Retreat",
+    "organizer": "ZenLife Retreats",
+    "location": "Les Cayes",
+    "description": "Rejuvenate your mind and body! Attend our Yoga and Mindfulness Retreat for inner peace. Free admission. Namaste!",
+    "registration_url": "https://zenliferetreats.org/signup"
+  },
+  {
+    "title": "DIY Home Gardening",
+    "organizer": "GreenThumb Society",
+    "location": "Gonaïves",
+    "description": "Discover the joy of gardening! Join our DIY Home Gardening Workshop. Free seeds and knowledge. Let's grow together!",
+    "registration_url": "https://greenthumbsociety.com/grow"
+  },
+  {
+    "title": "Graphic Design Essentials",
+    "organizer": "PixelCraft Academy",
+    "location": "Port-de-Paix",
+    "description": "Unleash your creativity! Attend our Graphic Design Essentials Workshop. Free admission. Design the future!",
+    "registration_url": "https://pixelcraftacademy.com/enroll"
+  },
+  {
+    "title": "Music Production Masterclass",
+    "organizer": "SoundSculptors",
+    "location": "Fort-Liberté",
+    "description": "Compose your symphony! Join our Music Production Masterclass. Free entry for aspiring musicians. Let the music play!",
+    "registration_url": "https://soundsculptors.com/register"
+  },
+  {
+    "title": "Language Exchange Meetup",
+    "organizer": "Polyglot Connect",
+    "location": "Port-au-Prince",
+    "description": "Dive into languages! Attend our Language Exchange Meetup for cultural connections. Free admission. Let's talk!",
+    "registration_url": "https://polyglotconnect.org/join"
+  },
+  {
+    "title": "Fitness and Wellness Seminar",
+    "organizer": "FitLife Solutions",
+    "location": "Jérémie",
+    "description": "Elevate your well-being! Join our Fitness and Wellness Seminar. Free admission for a healthier you!",
+    "registration_url": "https://fitlifesolutions.com/signup"
+  },
+  {
+    "title": "Writing and Storytelling Workshop",
+    "organizer": "WordCrafters Guild",
+    "location": "Cap-Haïtien",
+    "description": "Craft your narrative! Join our Writing and Storytelling Workshop. Free for aspiring wordsmiths. Let the stories unfold!",
+    "registration_url": "https://wordcraftersguild.org/enroll"
+  },
+  {
+    "title": "Digital Marketing Crash Course",
+    "organizer": "MarketMasters Academy",
+    "location": "Les Cayes",
+    "description": "Navigate the digital landscape! Attend our Digital Marketing Crash Course. Free for marketing enthusiasts. Start mastering the market!",
+    "registration_url": "https://marketmastersacademy.com/register"
+  },
+  {
+    "title": "Mind Mapping for Creativity",
+    "organizer": "Ideation Innovators",
+    "location": "Jacmel",
+    "description": "Expand your creativity! Join our Mind Mapping Workshop. Free admission for innovative minds. Let ideas flourish!",
+    "registration_url": "https://ideationinnovators.com/join"
+  }
+]

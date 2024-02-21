@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Opportunities Platform</title>
+    <!-- Appel pour les feuilles de style -->
+    <link rel="stylesheet" href="../styles/style.css" >
+    <link rel="stylesheet" href="../styles/css_1.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+<header>
+    <div>
+        <img href="index1.html" id="logo" src="../images/ofha.png" alt="Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index-.html">Main</a></li>
+            <li class="dropdown">
+                <a href="index-.html">Browse Opportunities</a>
+                <div class="dropdown-content">
+                    <div>
+                        <a href="hyper_1.html">Scholarships</a>
+                    </div>
+                    <div>
+                        <a href="hyper_2.html">Paying Jobs</a>
+                    </div>
+                    <div>
+                        <a href="hyper_3.html">Voluntary Work</a>
+                    </div>
+                    <div>
+                        <a href="hyper_4.html">Free Workshops</a>
+                    </div>
+                    <div>
+                        <a href="hyper_5.html">Awards</a>
+                    </div>
+                    <div>
+                        <a href="hyper_6.html">Competitions</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a class="subscribe-button" href="news.html">Subscribe</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--<header>-->
+<section class="welcome-1">
+    <div class="welcome-container-1">
+
+        <img src="../images/paying_jobs.jpg" alt="Welcome image">
+    </div>
+</section>
+
+<section>
+    <h1>Newest Paying Jobs</h1>
+    <form action="#">
+        <label for="keywords">Keywords: </label>
+        <input type="text" id="keywords" name="keywords">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        <button type="submit" id="filter-button">Filter</button>
+    </form>
+    <div class="featured-jobs">
+        <!-- Featured jobs will be generated here using JavaScript -->
+    </div>
+</section>
+<!-- FAQ ends -->
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+    // Wait for the document to be ready
+    $(document).ready(function() {
+        // Add click event listener to all elements with class "collapsed"
+        $('.card-header').on('click', function() {
+            // Toggle the class "show" on the parent element with class "card"
+            $(this).parent('.card').toggleClass('show');
+        });
+    });
+</script>
+
+<!-- Back to Top Button with Arrow Icon -->
+<button onclick="scrollToTop()" id="back-to-top-btn" title="Go to top">&#9650;</button>
+<!--Pied de page-->
+<footer>
+    <div class="container-1">
+        <div class="row"> <!-- start row -->
+            <div class="col-sm">
+                <a href="index-.html">
+                    <img class="img-fluid" src="../images/ofha.png" alt="Nature Manifestation">
+                </a>
+                <p class ="le" onclick="redirectToMain()">
+                    Opportunities for Fellow Haitians is the largest opportunity discovery platform for underrepresented Haitians
+                </p>
+                <p class ="le">
+                    Terms & Policies
+                </p>
+                <p class ="le" onclick="redirectToMain()">
+                    © 2023 Opportunities for Fellow Haitians
+                </p>
+            </div>
+            <div class="col-sm">
+                <p class ="le" onclick="redirectToMain()">
+                    Opportunities for Fellow Haitians
+                </p>
+                <hr>
+                <p class ="le">
+                    About
+                </p>
+                <hr>
+                <p class ="le" onclick="redirectToFAQ()">
+                    FAQs
+                </p>
+                <hr>
+                <p class ="le" onclick="redirectToContact()">
+                    Join
+                </p>
+            </div>
+            <div class="col-sm">
+                <p class ="le" onclick="redirectToPromote()">
+                    Contact
+                </p>
+                <hr>
+                <p class ="le" onclick="redirectToPromote()">
+                    Press
+                </p>
+                <hr>
+                <p class ="le" onclick="redirectToPromote()">
+                    Promote Program
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p class="le" onclick="redirectToContact()">Connect With Us</p>
+                <!-- Social Media Icons Container -->
+                <div class = "flex">
+                    <!-- Instagram -->
+                    <a href="https://teams.microsoft.com/l/message/48:notes/1702482332817?context=%7B%22contextType%22%3A%22chat%22%7D">
+                        <img class="img-fluid footer-logo" src="../images/instagram.png" alt="Instagram Logo">
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/opportunitiesforhaitians">
+                        <img class="img-fluid footer-logo" src="../images/facebook.png" alt="Facebook Logo">
+                    </a>
+                    <!-- LinkedIn -->
+                    <a  href="https://www.linkedin.com/company/79846055/admin/feed/posts/">
+                        <img class="img-fluid footer-logo" src="../images/linkedin.png" alt="LinkedIn Logo">
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FOFHA509">
+                        <img class="img-fluid footer-logo" src="../images/x.png" alt="Twitter Logo">
+                    </a>
+                </div>
+            </div>
+        </div> d
+    </div> <!-- end row -->
+</footer>
+
+<script>
+    function openSubscribeModal() {
+        var modal = document.getElementById('subscribe-modal');
+        var backdrop = document.getElementById('modal-backdrop');
+
+        modal.style.display = 'block';
+        backdrop.style.display = 'block';
+    }
+
+    function closeSubscribeModal() {
+        var modal = document.getElementById('subscribe-modal');
+        var backdrop = document.getElementById('modal-backdrop');
+
+        modal.style.display = 'none';
+        backdrop.style.display = 'none';
+    }
+</script>
+
+<!-- Firebase Script -->
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyCxtiDEiBQqq__9tQaI_ynpiNnA-29ozOM",
+        authDomain: "ofha-2.firebaseapp.com",
+        projectId: "ofha-2",
+        storageBucket: "ofha-2.appspot.com",
+        messagingSenderId: "1094866755220",
+        appId: "1:1094866755220:web:c2d4a4902775b1b4e95e81",
+        measurementId: "G-G17P17D59N"
+    };
+
+</script>
+</body>
+<script>
+    // Get the button
+    var mybutton = document.getElementById("back-to-top-btn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+<script>
+    function redirectToContact() {
+        window.location.href = "contact.html";
+    }
+    function redirectToPromote() {
+        window.location.href = "contact.html";
+    }
+    function redirectToFAQ() {
+        window.location.href = "#FAQ";
+    }
+    function redirectToMain() {
+        window.location.href = "index1.html";
+    }
+</script>
+<script src="../js/script_1.js"></script>
+</html>

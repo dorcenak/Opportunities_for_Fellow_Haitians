@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Product Manager",
+    "company": "Acme Inc.",
+    "location": "New York, NY",
+    "description": "Seeking dynamic Product Manager to drive innovation, streamline processes, and enhance user experiences. Join our team and shape the future of our products!",
+    "apply_url": "https://acme.com/apply"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Microsoft",
+    "location": "Berea, KY",
+    "description": "Innovative Software Developer wanted to code the future. Join us, and be a key player in shaping cutting-edge solutions. Apply now!",
+    "apply_url": "https://acme.com/apply"
+  },
+  {
+    "title": "History Teacher",
+    "company": "Google",
+    "location": "Miami, FL",
+    "description": "Engaging History Teacher needed to inspire young minds. Join our educational journey, impart knowledge, and foster a love for the past. Apply for a rewarding teaching experience.",
+    "apply_url": "https://acme.com/apply"
+  },
+  {
+    "title": "Recruiter",
+    "company": "Amazon",
+    "location": "Louisville, KY",
+    "description": "Energetic Recruiter wanted to build our dream team. Join us, connect talent with opportunity, and shape the future of our workforce. Apply now!",
+    "apply_url": "https://acme.com/apply"
+  },
+  {
+    "title": "Marketing Director",
+    "company": "Shein",
+    "location": "New York, NY",
+    "description": "Strategic Marketing Director sought to lead our brand vision. Join our dynamic team, drive campaigns, and elevate our market presence. Apply for a leadership role in shaping success.",
+    "apply_url": "https://acme.com/apply"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "TechInnovate Solutions",
+    "location": "Port-au-Prince, Haiti",
+    "description": "Join our dynamic team as a Software Engineer. Develop cutting-edge solutions and contribute to innovative projects. Competitive salary and benefits.",
+    "apply_url": "https://techinnovate.com/careers"
+  },
+  {
+    "title": "Marketing Specialist",
+    "company": "GlobalGrowth Marketing",
+    "location": "Cap-Haïtien, Haiti",
+    "description": "Exciting opportunity for a Marketing Specialist! Drive brand success and execute strategic campaigns. Competitive salary and growth potential.",
+    "apply_url": "https://globalgrowthmarketing.com/jobs"
+  },
+  {
+    "title": "Financial Analyst",
+    "company": "CapitalAnalytics Group",
+    "location": "Les Cayes, Haiti",
+    "description": "Join us as a Financial Analyst. Analyze data, make informed financial decisions, and contribute to our success. Competitive salary and benefits.",
+    "apply_url": "https://capitalanalyticsgroup.com/careers"
+  },
+  {
+    "title": "UX/UI Designer",
+    "company": "InnovateDesign Studios",
+    "location": "Jérémie, Haiti",
+    "description": "Creative UX/UI Designer wanted! Shape user experiences and bring design visions to life. Competitive salary and opportunities for innovation.",
+    "apply_url": "https://innovatedesignstudios.com/jobs"
+  },
+  {
+    "title": "Healthcare Specialist",
+    "company": "WellCare International",
+    "location": "Gonaïves, Haiti",
+    "description": "Make a difference in healthcare! Join us as a Healthcare Specialist. Competitive salary and the chance to impact lives positively.",
+    "apply_url": "https://wellcareinternational.com/careers"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "TechAnalytics Innovations",
+    "location": "Tokyo, Japan",
+    "description": "Exciting opportunity for a Data Scientist in Tokyo! Analyze big data and drive insights. Competitive salary and a dynamic work environment.",
+    "apply_url": "https://techanalyticsinnovations.co.jp/jobs"
+  },
+  {
+    "title": "AI Researcher",
+    "company": "FutureTech Labs",
+    "location": "San Francisco, USA",
+    "description": "Join the forefront of AI research! We're hiring AI Researchers in San Francisco. Competitive salary and the chance to shape the future.",
+    "apply_url": "https://futuretechlabs.com/careers"
+  },
+  {
+    "title": "Digital Marketing Manager",
+    "company": "MarketMasters Pro",
+    "location": "London, UK",
+    "description": "Lead digital strategies globally! We're hiring a Digital Marketing Manager in London. Competitive salary and the opportunity for international impact.",
+    "apply_url": "https://marketmasterspro.co.uk/jobs"
+  },
+  {
+    "title": "Blockchain Developer",
+    "company": "CryptoInnovate Tech",
+    "location": "Berlin, Germany",
+    "description": "Explore the world of blockchain! Join us as a Blockchain Developer in Berlin. Competitive salary and the chance to innovate in decentralized tech.",
+    "apply_url": "https://cryptoinnovatetech.de/jobs"
+  },
+  {
+    "title": "Environmental Scientist",
+    "company": "GreenSolutions International",
+    "location": "Sydney, Australia",
+    "description": "Passionate about the environment? Join us as an Environmental Scientist in Sydney. Competitive salary and the chance to contribute to sustainability.",
+    "apply_url": "https://greensolutionsinternational.com/careers"
+  },
+  {
+    "title": "Graphic Design Lead",
+    "company": "CreativeVisions Studios",
+    "location": "Paris, France",
+    "description": "Lead our design vision! We're hiring a Graphic Design Lead in Paris. Competitive salary and the opportunity to shape creative direction.",
+    "apply_url": "https://creativevisionsstudios.fr/jobs"
+  }
+]

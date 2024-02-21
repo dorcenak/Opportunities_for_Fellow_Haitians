@@ -1,0 +1,868 @@
+/*This portion is for the whole document*/
+
+
+:root {
+    --color-primary: #6f6af8;
+    --color-primary-light:hsl(242, 91%, 69%, 18%);
+    --color-primary-variant:#5854c7;
+    --color-red: #da0f3f;
+    --color-red-light: hsl(346, 87%, 46%, 15%);
+    --color-green: #00c476;
+    --color-green-light: hsl(156, 100%, 38%, 15%);
+    --color-gray-900: #1e1e66;
+    --color-gray-700:#2d2b7c;
+    --color-gray-300: rgba(17, 17, 17, 0.3);
+    --color-gray-200: Irgba(242, 242, 254, 0.7);
+    --color-white: #f2f2fe;
+    --color-bg: #0f0f3e;
+
+    --transition: all 300ms ease;
+
+    --container-width-lg: 74%;
+    --container-width-md: 88%;
+    --form-width: 40%;
+
+    --card-border-radius-1: 0.3rem;
+    --card-border-radius-2: 0.5rem;
+    --card-border-radius-3: 0.8rem;
+    --card-border-radius-4: 2rem;
+    --card-border-radius-5: 5rem;
+}
+
+
+/* All docs */
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.3;
+    color:var(--color-white);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    /*font-size: 1.7rem; margin: 1rem 0;*/
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.1rem;
+    image-rendering: 0.8rem 0 0.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+
+a {
+    color: var(--color-white);
+    transition: var(--transition);
+    width: auto;
+    font-size: clamp(14px, 2vw, 20px); /* Adjust the values as needed */
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+p{
+   font-family: Montserrat;
+    font-size: clamp(14px, 2vw, 20px); /* Adjust the values as needed */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--color-gray-900);
+    overflow-x: hidden;
+    background: var(--color-bg);
+    font-size: 0.9rem;
+}
+
+
+
+/* All docs done */
+
+
+/*Category button */
+.category__button {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.1rem;
+    margin-top: -8rem;
+    border-radius: var(--card-border-radius-2);
+    font-weight: 600;
+    /*font-size: 0.8rem;*/
+    font-size: clamp(2px, 2vw, 20px); /* Adjust the values as needed */
+    text-align: center;
+}
+.category__button:hover {
+    color: var(--color-gray-300);
+}
+
+/*Categorgy button done */
+
+/*General Post */
+
+.post__thumbnail {
+    /*border-radius: var(--card-border-radius-5) 0;*/
+    /*border: 1rem solid var(--color-gray-900);*/
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    height: auto;
+    width: auto;
+    padding-bottom: -50px;
+}
+
+.post__thumbnail img{
+    border-radius: var(--card-border-radius-5) 0;
+    border: 1rem solid var(--color-gray-900);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+
+.post__info{
+    padding-top: -10px;
+}
+
+.post__thumbnail img:hover {
+    filter: saturate(0);
+    transition: filter 500ms ease;
+}
+
+.post__author {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: -10px
+}
+
+.post__author-avatar {
+    width: auto;
+    height: auto;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    border-radius: var(--card-border-radius-3);
+    overflow: hidden;
+}
+
+.post__author-info {
+    font-size: clamp(14px, 2vw, 20px); /* Adjust the values as needed */
+    display: block;
+    padding-bottom: 5px;
+    gap: 0.1rem;
+}
+
+.post__author-info h5 {
+    padding-top: 4px;
+    font-size: clamp(11px, 2vw, 17px); /* Adjust the values as needed */
+
+}
+
+
+
+/*--POST--*/
+
+
+/*--POST--*/
+
+/* Old starts here */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+section{
+    background-color: white;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    max-height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.subscribe-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* Header over */
+
+
+
+/* Subscribe container */
+/* Style for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: #3f43fd;
+}
+
+#modal-content {
+    /*background-color: yellow;*/
+    /*margin: 5% auto;*/
+    margin-bottom: 2%;
+    margin-top: 5%;
+    padding: 20px;
+    width: 35%;
+}
+
+#modal-content h1{
+    text-align: center;
+}
+
+#subscribe-modal {
+    background-color: yellow;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#subscribe-form {
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+}
+
+#subscribe-form-2 option {
+    margin-bottom: 10%;
+}
+
+/* Style for the close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style for the backdrop */
+#modal-backdrop {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(5px); /* Adjust the blur amount as needed */
+}
+/* Subscribe container over*/
+
+    /* Apply styles to the video container */
+.img-1 img {
+    /*position: absolute;*/
+    width: 100%;
+    max-width: 12px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+
+.title-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Style for the text itself */
+.title-2-1{
+    color: white;
+    font-size: 85px;
+    font-family: "Vivaldi", cursive;
+    text-align: center;
+    opacity: 0;
+    /* Additional styles for your text */
+}
+
+h4{
+    text-align: center;
+}
+
+.categories-1 h2{
+    text-align: center;
+    font-size: clamp(5px, 5vw, 40px); /* Adjust the values as needed */
+}
+/*Done */
+
+section {
+    margin: 20px;
+}
+
+/* Welcome Image */
+.welcome {
+    /*background-color: #fff;*/
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    width: calc(100% - -3px);
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+/* Add styles for the welcome section */
+.welcome-container {
+    position: relative;
+}
+
+.welcome h2 {
+    position: absolute;
+    font-size: clamp(15px, 5vw, 75px); /* Adjust the values as needed */
+    top: 50%;
+    left: 50%;
+    right: -30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the image */
+}
+
+.welcome-image {
+    width: 100px; /* Ensure the image takes the full width of its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block;
+}
+
+.welcome:nth-child(0n) {
+    margin-right: 0;
+}
+
+
+
+.welcome img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Done */
+
+
+/* Other Welcomes */
+
+.welcome-1{
+    /*background-color: #fff;*/
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    width: calc(100% - -3px);
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+/* Add styles for the welcome section */
+.welcome-container {
+    position: relative;
+}
+
+.welcome-image {
+    width: 100%; /* Ensure the image takes the full width of its container */
+    height: 200px; /* Maintain the image's aspect ratio */
+    display: block;
+}
+
+.welcome:nth-child(0n) {
+    margin-right: 0;
+}
+
+
+
+.welcome-1 img {
+    max-width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+}
+
+
+/* Done */
+
+.opportunity {
+    /*background-color: #fff;*/
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    width: calc(50% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.opportunity:nth-child(2n) {
+    margin-right: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.opportunity img {
+    /*max-width: 100%;*/
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+/* Style for the FAQ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    max-width: 75%;
+    margin: auto;
+
+}
+
+.wrapper > p,
+.wrapper > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: clamp(4px, 4vw, 50px);
+
+}
+
+.wrapper > h1 {
+    letter-spacing: 3px;
+}
+
+.accordion{
+    background-color: #3f4651;
+    color: rgba(0, 0,0, 0.8 alpha);
+    cursor: pointer;
+    font-size: 1.2 rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.accordion i{
+    font-size: 1.6rem;
+
+}
+
+.active,
+.accordion:hover{
+    background-color: #3f4649;
+
+}
+
+.pannel {
+    padding: 0 18px;
+    background-color: #3f4649;
+    overflow: hidden;
+    display: none;
+    background-color: #3f4649;
+    padding: 0 2 rem 2.5rem 2rem;
+
+}
+
+
+.pannel p{
+    color: rgb(243, 236, 236);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: left;
+    padding-left: inherit;
+    padding-bottom: 3%;
+}
+
+.faq{
+    border: 1px solid rgba(0,0,0, 0.1);
+    margin: 10px 0;
+
+}
+
+.faq.active{
+    border: none;
+}
+
+
+/* FAQ done */
+
+
+/* Add or modify styles in your existing CSS file */
+#subscribe-section {
+    /*background-color: #f4f4f4;*/
+    padding: 20px;
+    text-align: center;
+
+}
+
+#subscribe-frame {
+    max-width: 400px;
+    margin: 0 auto;
+    /*background-color: #fff;*/
+    padding: 20px;
+    border-radius: 8px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+#subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* FAQ style */
+/*body{margin-top:20px;}*/
+/*.section_padding_130 {*/
+/*    padding-top: 130px;*/
+/*    padding-bottom: 130px;*/
+/*}*/
+/*.faq_area {*/
+/*    position: relative;*/
+/*    margin-bottom: -200px;*/
+/*    z-index: 1;*/
+/*    background-color: #ffffff;*/
+/*}*/
+
+/*.faq-accordian {*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+/*.faq-accordian .card {*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*    margin-bottom: 1.5rem;*/
+/*}*/
+/*.faq-accordian .card:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.faq-accordian .card .card-header {*/
+/*    background-color: #3f4651;*/
+/*    padding: 0;*/
+/*    border-bottom-color: #ebebeb;*/
+/*}*/
+/*.faq-accordian .card .card-header h6 {*/
+/*    cursor: pointer;*/
+/*    padding: 1.75rem 2rem;*/
+/*    color: #3f43fd;*/
+/*    display: -webkit-box;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -webkit-box-align: center;*/
+/*    -ms-flex-align: center;*/
+/*    -ms-grid-row-align: center;*/
+/*    align-items: center;*/
+/*    -webkit-box-pack: justify;*/
+/*    -ms-flex-pack: justify;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.faq-accordian .card .card-header h6 span {*/
+/*    font-size: 1.5rem;*/
+/*}*/
+/*.faq-accordian .card .card-header h6.collapsed {*/
+/*    color: #070a57;*/
+/*}*/
+/*.faq-accordian .card .card-header h6.collapsed span {*/
+/*    -webkit-transform: rotate(-180deg);*/
+/*    transform: rotate(-180deg);*/
+/*}*/
+/*.faq-accordian .card .card-body {*/
+/*    padding: 1.75rem 2rem;*/
+/*}*/
+/*.faq-accordian .card .card-body p:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*@media only screen and (max-width: 575px) {*/
+/*    .support-button p {*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/
+
+/*.support-button i {*/
+/*    color: #3f43fd;*/
+/*    font-size: 1.25rem;*/
+/*}*/
+/*@media only screen and (max-width: 575px) {*/
+/*    .support-button i {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*}*/
+
+/*.support-button a {*/
+/*    text-transform: capitalize;*/
+/*    color: #2ecc71;*/
+/*}*/
+/*@media only screen and (max-width: 575px) {*/
+/*    .support-button a {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*}*/
+
+
+/* FAQ style ends */
+
+
+/*-------------------------------------Footer-------------------------------------------------*/
+      /* Footer elements hover effect */
+
+  .col-sm p{
+      color: #a2a1a1;
+  }
+
+.col-sm img {
+    width: 15vw; /* Adjust the size based on your preference */
+    margin-right: 10px; /* Adjust the space between images */
+    display: flex;
+}
+
+.col-sm-4 p{
+    color: #a2a1a1;
+}
+.le{
+    font-size: clamp(4px, 4vw, 16px);
+    /*color: white;*/
+    cursor: pointer;
+}
+.insider:hover p {
+    color: gray;
+}
+
+/* Text color change for the first row in the footer */
+.le:hover {
+    color: white; /* Change to the desired hover text color */
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+
+/* Social media icons hover effect */
+.flex a:hover img {
+    filter: brightness(0) invert(1);
+}
+
+footer{
+    width: 100%;
+    background-color:black;
+    margin-right: -40px;
+}
+
+.container-1{
+    background-color: #3f4651; /* Background color for the footer info section */
+    padding: 20px;
+    max-width: 100%;
+    margin-right: -40px;
+
+    margin-top: 200px;
+
+}
+
+/* New Styles for the footer */
+
+
+/* End of New Style for footer */
+
+
+
+
+
+
+
+
+.insider{
+    height: 2px;
+    width: 4px;
+    height: 1px;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.flex img {
+    width: 3vw; /* Adjust the size based on your preference */
+    margin-right: 10px; /* Adjust the space between images */
+    display: flex;
+}
+
+
+
+
+/* Footer elements hover effect */
+
+
+.insider:hover p {
+    color: gray;
+}
+
+/* Text color change for the first row in the footer */
+
+
+
+/* Social media icons hover effect */
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    padding: 10px; /* Adjust padding to reduce height */
+    cursor: pointer;
+}
+
+#back-to-top-btn:hover {
+    background-color: #0056b3;
+}
