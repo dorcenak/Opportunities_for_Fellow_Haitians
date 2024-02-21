@@ -1,4 +1,4 @@
-# OPportunities for Fellow Haitians
+# Opportunities for Fellow Haitians
 
 ## Overview
 
