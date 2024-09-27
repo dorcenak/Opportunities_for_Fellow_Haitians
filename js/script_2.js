@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let allJobsData; // Variable to store all jobs data
 
     // Fetch job data from JSON file
-    fetch("scholarships-data.json")
+    fetch("C:\\Users\\dorcenak\\WebstormProjects\\Opportunities_for_Fellow_Haitians\\data_base\\scholarships-data.json")
         .then((response) => response.json())
         .then((data) => {
             // Store all jobs data for later use
